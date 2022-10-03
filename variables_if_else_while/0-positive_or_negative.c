@@ -11,7 +11,7 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 					if( n==0){
 						printf("%d is nul");
-					}else if(n>0i){
+					}else if(n>0){
 						printf("%d is positive");	
 					}else{
 					printf("%d is negative");
