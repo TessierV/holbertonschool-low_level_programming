@@ -5,7 +5,7 @@
  * main - print all single digit numbers of base 10
  *
  * Description: with a new line
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
