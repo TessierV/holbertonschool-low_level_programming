@@ -16,13 +16,12 @@ int main(void)
 	{
 		putchar(i);
 		if (i < '9')
-	{
-		putchar(44);
-		putchar(32);
-	}
-	else{
+		{
+			putchar(44);
+			putchar(32);
+		}else{
 		putchar('\n');
+		}
 	}
 	return (0);
-	}
 }
