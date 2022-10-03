@@ -23,7 +23,5 @@ int main(void)
 					printf("is %d and is 0\n", n);
 					else if(lastint > 5)
 					printf("Last digit of %d is %d and is greater than 5\n", n, lastint);	
-					else
-					printf("%d is not a number\n", n);
 					return (0);
 }
