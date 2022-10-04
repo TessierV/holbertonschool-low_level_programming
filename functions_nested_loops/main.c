@@ -2,3 +2,4 @@
 #define MY_HEADER_H
 
 int _putchar(char);
+#endif
