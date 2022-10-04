@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int _putchar(void){
+int main(void){
 	putchar(95);
 	putchar(80);
 	putchar(85);
@@ -17,4 +17,5 @@ int _putchar(void){
 	putchar(65);
 	putchar(82);
 	putchar("\n");
+	return(0);
 }
