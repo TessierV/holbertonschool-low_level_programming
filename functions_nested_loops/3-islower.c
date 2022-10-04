@@ -10,10 +10,10 @@ int _islower(int c)
 {
 	if (97 >= c && c <= 122)
 	{
-		putchar(0);
+		return(0);
 	}
 	else
 	{
-		putchar(1);
+		return(1);
 	}
 }
