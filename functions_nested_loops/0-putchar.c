@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	putchar(95);
-	putchar(80);
-	putchar(85);
-	putchar(84);
-	putchar(67);
-	putchar(72);
-	putchar(65);
-	putchar(82);
-	putchar("\n");
+	_putchar(95);
+	_putchar(80);
+	_putchar(85);
+	_putchar(84);
+	_putchar(67);
+	_putchar(72);
+	_putchar(65);
+	_putchar(82);
+	_putchar("\n");
 	return(0);
 }
