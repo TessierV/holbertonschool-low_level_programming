@@ -8,8 +8,6 @@
  */
 int _islower(int c)
 {
-	char c;
-
 	if (97 >= c && c <= 122)
 	{
 		putchar(0);
@@ -18,5 +16,4 @@ int _islower(int c)
 	{
 		putchar(1);
 	}
-	putchar('\n');
 }
