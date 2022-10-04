@@ -3,16 +3,18 @@
 #include <stdio.h>
 /**
  * main - print_alphabet a lowercase alphabet
- * Description: no new line
- * Return: 0
+ *
+ * Description: 
+ * 
+ * Return: new line 
  */
-char print_alphabet(void)
+char print_alphabet(void)	
 {
 		char i = 'a';
 		
-		for (i = 'a'; i <= 'z'; i++)
+		for(i = 'a'; i <= 'z'; i++)
 		{
 			putchar(i);
 		}
-		return (0);
+		putchar('\n');
 }
