@@ -1,6 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
+#include <main.h>
 /**
  * main - print Putchar
  *
@@ -8,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void){
+int _putchar(void){
 	putchar(95);
 	putchar(80);
 	putchar(85);
