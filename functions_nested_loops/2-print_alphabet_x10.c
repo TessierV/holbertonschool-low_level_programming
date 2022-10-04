@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 /**
- * main - print_alphabet a lowercase alphabet
+ * print_alphabet_x10 lowercase alphabet x10
  *
  * Return: newline
  */
