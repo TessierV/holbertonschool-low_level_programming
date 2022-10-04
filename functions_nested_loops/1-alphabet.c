@@ -2,15 +2,16 @@
 
 #include <stdio.h>
 /**
- * print_alphabet a lowercase alphabet
+ * main - print_alphabet a lowercase alphabet
  *
- * Return: void
+ * Return: 0
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
-		char i;
+		char i = 'a';
 
 			for (i = 'a'; i <= 'z'; i++)
 				putchar(i);
 				putchar('\n');
+				return (0);
 }
