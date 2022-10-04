@@ -6,13 +6,13 @@
  *
  * Return: 1 if true 0 if false
  */
-int _islower(void)
+int _islower(int c)
 {
 	char i;
 
 	if (97 >= i && i <= 122)
 	{
-		putchar(0)
+		putchar(0);
 	}
 	else
 	{
