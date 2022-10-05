@@ -14,11 +14,18 @@ int print_last_digit(int r)
 		_putchar('0' + last_digit);
 		return(last_digit);
 	}
-	else
+	else if
 	{
 		last_digit = r /10 %10;
 
 		_putchar('0' + last_digit);
 		return(last_digit);
+	}
+	else
+	{
+		last_digit = -last_digit;
+		_putchar('0' + last_digit);
+		return(last_digit);
+
 	}
 }
