@@ -14,9 +14,10 @@ void times_table(void)
 		{
 			int result = c * n;
 
-			if (result == 0)
+			if (c == 0)
 			{
 				_putchar(result % 10 + '0');
+			
 	
 			}
 			else if (result <= 9){
