@@ -12,13 +12,25 @@ void print_times_table(int n)
 	{
 		for (c = 0; c <= n; c++)
 		{
-			for (r = 0; r <= n; r++)
+			_putchar('0');
+			for (r = 1; r <= n; r++)
 			{
 				int result = c * r;
 				
-				_putchar(result + '0');
-				_putchar(',');
-				_putchar(' ');
+				if (result <= 9);
+				{	
+					_putchar(44);
+					_putchar(32);
+					_putchar(32);
+					_putchar(result + '0');
+				}
+				else
+				{
+					_putchar(44);
+					_putchar(32);
+					_putchar(result / 10 + '0');
+					_putchar(result % 10 + '0');
+				}
 			}
 			putchar('\n');
 		}
