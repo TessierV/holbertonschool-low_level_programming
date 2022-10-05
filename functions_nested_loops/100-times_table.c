@@ -19,7 +19,9 @@ void print_times_table(int n)
 				result = r * c;
 				putchar(result);
 				putchar(44);
+				putchar(32);
 			}
+			putchar('\n');
 		}
 	}
 	else
