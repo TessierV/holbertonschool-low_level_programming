@@ -15,14 +15,20 @@ void times_table(void)
 			int result = c * n;
 
 			if (result <= 9){
+				_putchar(44);
+				_putchar(32);
 				_putchar(result + '0');
-				_putchar(',');
+			}
+			else if (result == 0)
+			{
+				_putchar('0');
 			}
 			else
 			{
+				_putchar(44);
+				_putchar(32);
 				_putchar(result / 10 + '0');
 				_putchar(result % 10 + '0');
-				_putchar(',');
 			}
 
 		}
