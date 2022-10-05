@@ -6,7 +6,7 @@
  *@r: its the name of the variable
  * Return: 1 if true 0 if false
 **/
-int fibo(void)
+int fibo(int)
 {
 	int a, b, c, fi;
 	a = 1;
@@ -15,6 +15,6 @@ int fibo(void)
 	for (fi = 0; fi < 50; fi++)
 	{
 		c = a + b;
-		printf("%d, fn");
+		printf("%d", fi);
 	}
 }
