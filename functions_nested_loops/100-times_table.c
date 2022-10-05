@@ -17,13 +17,13 @@ void print_times_table(int n)
 			for (r = 0; r <= n; r++)
 			{
 				result = r * c;
-				printf(result);
-				printf(44);
+				putchar(result);
+				putchar(44);
 			}
 		}
 	}
 	else
 	{
-		printf('\n');
+		putchar('\n');
 	}
 }
