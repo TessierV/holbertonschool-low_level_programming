@@ -16,7 +16,6 @@ void print_times_table(int n)
 			for (r = 1; r <= n; r++)
 			{
 				int result = c * r;
-				
 				if (result <= 9)
 				{
 					_putchar(44);
