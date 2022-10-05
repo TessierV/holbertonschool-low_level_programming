@@ -21,7 +21,6 @@ void times_table(void)
 				_putchar(32);
 				_putchar(32);
 				_putchar(result + '0');
-
 			}
 			else
 			{
@@ -30,9 +29,7 @@ void times_table(void)
 				_putchar(result / 10 + '0');
 				_putchar(result % 10 + '0');
 			}
-
 		}
 		_putchar('\n');
 	}
-	
 }
