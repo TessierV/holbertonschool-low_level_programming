@@ -2,17 +2,18 @@
 /**
  *times_table - multiplication tab
  *@n: its the name of the variable
- * Return: \n
+ * Return: 0
  */
 void times_table(void)
 {
-	int c, n;
+	int c, n, result;
 
-	for (c = 0; c <= n; c++)
+	for (c = 0; c <= 9; c++)
 	{
-		int result = c * n;
-		_putchar(result + '0');
-		_putchar(',');
-		_putchar(' ');
+		for (n = 0; n <= 9; n++)
+		{
+			int result = c * n;
+		}
 	}
+	return(0)
 }
