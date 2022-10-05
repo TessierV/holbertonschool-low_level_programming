@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *_abs - check is the character is an alphabetic
- *@c: its the name of the variable
+ *@r: its the name of the variable
  * Return: 1 if true 0 if false
  */
 int _abs(int r)
