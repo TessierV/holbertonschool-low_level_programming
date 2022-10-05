@@ -6,13 +6,14 @@
  */
 void times_table(void)
 {
-	int c, n, result;
+	int c, n;
 
 	for (c = 0; c <= 9; c++)
 	{
 		for (n = 0; n <= 9; n++)
 		{
 			int result = c * n;
+
 			_putchar(result / 10 + '0');
 			_putchar(result % 10 + '0');		
 			_putchar(',');
