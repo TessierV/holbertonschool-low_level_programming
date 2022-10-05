@@ -22,7 +22,7 @@ int print_last_digit(int r)
 	}
 	else
 	{
-		last_digit = - last_digit;
+		last_digit = -last_digit;
 	
 		_putchar('0' + last_digit);
 		return (last_digit);
