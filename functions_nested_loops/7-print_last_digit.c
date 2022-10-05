@@ -14,7 +14,7 @@ int print_last_digit(int r)
 		_putchar('0' + last_digit);
 		return (last_digit);
 	}
-	else (r > 99)
+	else 
 	{
 		last_digit = r /10 %10;
 		_putchar('0' + last_digit);
