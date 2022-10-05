@@ -7,10 +7,16 @@
 int print_last_digit(int r)
 {
 	int last_digit;
-	if (r <= 99 && r >= 0)
+	if (r <= 99 && r >= 10)
 	{
 		last_digit = r % 10;
 
+		_putchar('0' + last_digit);
+		return (last_digit);
+	}
+	else if (r = 0 && r <= 9)
+	{
+		last_digit = r % 1;
 		_putchar('0' + last_digit);
 		return (last_digit);
 	}
