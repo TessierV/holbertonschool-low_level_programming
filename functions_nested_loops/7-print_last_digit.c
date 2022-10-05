@@ -6,17 +6,7 @@
  */
 int print_last_digit(int n)
 {
-	int last;
-	if (n <= 99)
-	{
-		int last = n % 10;
-		_putchar(last + '0');
-		return (last);
-	}
-	else
-	{
-		int lastlong = n /10 %10;
-		_putchar(last + '0');
-		return (lastlong);
-	}	
+	int r
+	_putchar(r(n % 10) + '0');
+	return(r);
 }
