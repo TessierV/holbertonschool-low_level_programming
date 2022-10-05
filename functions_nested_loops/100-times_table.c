@@ -26,6 +26,6 @@ void print_times_table(int n)
 	}
 	else
 	{
-		putchar('\n');
+	return(0);
 	}
 }
