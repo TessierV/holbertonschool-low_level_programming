@@ -10,11 +10,11 @@ void print_times_table(int n)
 {
 	int c, r;
 
-	if (n >= 0 && n <= 15)
+	if (n >= '0' && n <= '15')
 	{
-		for (c = 0; c <= n; c++)
+		for (c = '0'; c <= n; c++)
 		{
-			for (r = 0; r <= n; r++)
+			for (r = '0'; r <= n; r++)
 			{
 				int result = c * r;
 				_putchar(result);
