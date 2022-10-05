@@ -6,6 +6,7 @@
  */
 int print_last_digit(int n)
 {
+	int last;
 	if (n <= 99)
 	{
 		int last = n % 10;
