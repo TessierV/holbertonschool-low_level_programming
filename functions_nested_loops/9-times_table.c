@@ -14,9 +14,9 @@ void times_table(void)
 		{
 			int result = c * n;
 
-			if (c == 0)
+			if (result == 0)
 			{
-				_putchar(result % 10 + '0');
+				_putchar('0');
 			
 	
 			}
