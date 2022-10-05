@@ -17,8 +17,8 @@ void print_times_table(int n)
 			{
 				int result = c * r;
 				
-				if (result <= 9);
-				{	
+				if (result <= 9)
+				{
 					_putchar(44);
 					_putchar(32);
 					_putchar(32);
