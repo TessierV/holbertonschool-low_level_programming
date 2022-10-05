@@ -2,9 +2,9 @@
 
 #include <stdio.h>
 /**
- *_isalpha - check is the character is an alphabetic
- *@c: its the name of the variable
- * Return: 1 if true 0 if false
+ *print_times_table - multiplication tab
+ *@n: its the name of the variable
+ * Return: \n
  */
 void print_times_table(int n)
 {
@@ -23,6 +23,6 @@ void print_times_table(int n)
 	}
 	else
 	{
-		putchar(0);
+		putchar('\n');
 	}
 }
