@@ -17,8 +17,8 @@ void print_times_table(int n)
 				int result = c * r;
 				
 				_putchar(result + '0');
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 			putchar('\n');
 		}
