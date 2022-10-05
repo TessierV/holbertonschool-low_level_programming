@@ -4,13 +4,10 @@
  *@n: its the name of the variable
  * Return: \n
  */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	int r;
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return(0);
+	int last_digit;
+	last_digit = r % 10;
+
+	return(last_digit);
 }
