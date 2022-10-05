@@ -2,6 +2,7 @@
 /**
  *times_table - multiplication tab
  *@n: its the name of the variable
+ *@c: its the name of the variable
  * Return: 0
  */
 void times_table(void)
