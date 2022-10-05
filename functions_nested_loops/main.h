@@ -8,5 +8,6 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int add(int a, int b);
+int _abs(int);
 void print_times_table(int n);
 #endif
