@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			int result = c * n;
 
-			if (result > 0  && result <= 9){
+			if (result <= 9){
 				_putchar(44);
 				_putchar(32);
 				_putchar(32);
