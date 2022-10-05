@@ -23,6 +23,6 @@ void print_times_table(int n)
 	}
 	else
 	{
-		break;
+		putchar(0);
 	}
 }
