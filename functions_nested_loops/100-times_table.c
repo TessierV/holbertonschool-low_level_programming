@@ -1,6 +1,4 @@
 #include "main.h"
-
-#include <stdio.h>
 /**
  *print_times_table - multiplication tab
  *@n: its the name of the variable
@@ -17,7 +15,7 @@ void print_times_table(int n)
 			for (r = 0; r <= n; r++)
 			{
 				int result = c * r;
-				_putchar(result);
+				putchar(result);
 				putchar(',');
 				putchar(' ');
 			}
