@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_last_digit - multiplication tab
- *@n: its the name of the variable
+ *@r: its the name of the variable
  * Return: \n
  */
 int print_last_digit(int r)
@@ -20,16 +20,16 @@ int print_last_digit(int r)
 		_putchar('0' + last_digit);
 		return (last_digit);
 	}
-	else if ( r > 99) 
+	else if (r > 99) 
 	{
-		last_digit = r /10 %10;
+		last_digit = r / 10 % 10;
 		_putchar('0' + last_digit);
 		return (last_digit);
 	}
 	else
 	{
-		last_digit = r /10 % 10;
+		last_digit = r / 10 % 10;
 		_putchar('0' + last_digit);
-		return(-last_digit);
+		return (-last_digit);
 	}
 }
