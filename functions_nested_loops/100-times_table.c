@@ -8,7 +8,7 @@
  */
 void print_times_table(int n)
 {
-	int c = 0, r = 0, timetab = c * r;
+	int c, r, timetab;
 
 	if (n >= 0 && n <= 15)
 	{
@@ -16,10 +16,9 @@ void print_times_table(int n)
 		{
 			for (r = 0; r <= n; r++)
 			{
-				if (timetab = c * r)
-				{
-					putchar(44);
-				}
+				timetab = c * r;
+				printf(timetab);
+				putchar(44);
 			}
 		}
 	}
