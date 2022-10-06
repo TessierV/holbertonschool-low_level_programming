@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 /**
- *11-print_to_98 - print to 98
+ *print_to_98 - print to 98
  *@n: its the name of the variable
  *
  * Description: this fonction will print to 98
