@@ -5,7 +5,7 @@
  *11-print_to_98 - print to 98
  *@n: its the name of the variable
  *
- * Description: this fonction will print to 98 for lower number and higher number to 98
+ * Description: this fonction will print to 98
  * Return: void
  */
 void print_to_98(int n)
