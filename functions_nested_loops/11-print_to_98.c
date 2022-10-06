@@ -22,10 +22,13 @@ void print_to_98(int n)
 		for (n = 0; n >= 98; n--)
 		{
 			printf("%d", n);
+			printf("%c", 44);
+			printf("%c", 32);
 		}
 	}
 	else
 	{
 		printf("%d", n);
+		printf("%c",32); 
 	}
 }
