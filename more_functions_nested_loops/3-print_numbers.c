@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * mul - multiplication
- * @a: its the variable
- * @b: its the variable
+ * print_numbers - print
+ * @n: its the variable
  *
- *Description: multiplication
- *Return: the result of the the multiplication
+ *Description: print from 0 - 9
+ *Return: the result
  */
 void print_numbers(void)
 {
