@@ -27,5 +27,7 @@ int fizz_buzz(void)
 		{
 			printf("%d", x);
 		}
+		printf("\n");
+		return(0);
 	}
 }
