@@ -1,2 +1,2 @@
-school: school.c
+school: school.c a.out m.h main.c 
 	all: $(all)
