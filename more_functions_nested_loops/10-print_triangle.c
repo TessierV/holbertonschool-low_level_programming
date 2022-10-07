@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_square - print ligne
+ * print_triangle - print triangle
  *@size: is the variable
  *
- *Description: print a square
+ *Description: print a triangle
  *Return: /n
  */
 void print_triangle(int size)
@@ -18,10 +18,9 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (i = 0; i < r; i++)
+		for (i = 0; i < size; i++)
 		{
-			putchar(46);
-			for (r = 0; r < size; r++)
+			for (r = 0; r < -size; r++)
 			{
 				putchar(35);
 			}
