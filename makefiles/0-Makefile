@@ -1,2 +1,2 @@
-school : school.o
-	cc school.o -o school
+all : 
+	gcc school.o -o school
