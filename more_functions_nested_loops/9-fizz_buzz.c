@@ -12,25 +12,17 @@ void more_numbers(void)
 
 	for (x = 0; x <= 100; x++)
 	{
-		if (x > 9)
-		{
-			putchar(x / 10 + '0');	
-		}
-		else if (x % 3 && x % 5)
+		if (x % 3 == 0 && x % 5 == 0)
 		{
 			printf('Fizz Buzz');
 		}
-		else if (x % 3)
+		else if (x % 3 == 0)
 		{
 			printf('Fizz'); 
 		}
-		else if (x % 5)
+		else if (x % 5 == 0)
 		{
 			printf('Buzz');
-		}
-		else
-		{
-			putchar(x % 10 + '0');
 		}
 	}
 	putchar('\n');
