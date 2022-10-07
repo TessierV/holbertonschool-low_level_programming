@@ -2,9 +2,11 @@
 
 #include <stdio.h>
 /**
- *_abs - check is the character is an alphabetic
- *@r: its the name of the variable
- * Return: 1 if true 0 if false
+ *jack_bauer - list hour/min
+ *@h: its the name of the variable for hour
+ *@m: its the name of the variable for min
+ *
+ * Return: void
  */
 void jack_bauer(void)
 {
