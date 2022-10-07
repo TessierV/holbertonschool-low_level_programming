@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print
+ * print_numbers - print n in parameter
  * @n: its the variable
  *
  *Description: print from 0 - 9
