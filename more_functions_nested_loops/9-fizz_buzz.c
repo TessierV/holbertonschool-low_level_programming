@@ -1,12 +1,11 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
  * fizz_buzz - depending of the x 
  *
  *Description: the x will print & list depending of %
  *Return: the result
  */
-void fizz_buzz(void)
+int fizz_buzz(void)
 {
 	int x;
 
