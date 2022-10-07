@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_functions_nested_loops - print ligne
+ * print_line - print ligne
  *@n: is the variable
  *
  *Description: print a ligne with a variable
@@ -9,9 +9,9 @@
  */
 void print_line(int n)
 {
-	int _;
+	int i;
 
-	for (_ = 0; _ < n; _++)
+	for (i = 0; i < n; i++)
 	{
 		putchar(95);
 	}
