@@ -20,11 +20,11 @@ void print_triangle(int size)
 	{
 		for (i = 0; i < size; i++)
 		{
+			putchar(46);
 			for (r = 0; r < size; r++)
 			{
 				putchar(35);
 			}
-			putchar(46);
 			putchar('\n');
 		}
 	}
