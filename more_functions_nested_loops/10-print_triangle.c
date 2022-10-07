@@ -18,13 +18,13 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (i = 0; i < size; i++)
+		for (i = 0; size > 0; size--)
 		{
 			for (r = 0; r < size; r++)
 			{
 				putchar(35);
 			}
-			for (p = 0; p < size; p--)
+			for (p = 0; p < size; p++)
 			{
 				putchar(46);
 			}
