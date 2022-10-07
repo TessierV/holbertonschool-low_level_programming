@@ -6,7 +6,7 @@
  *Description: the x will print & list depending of %
  *Return: the result
  */
-void more_numbers(void)
+void fizz_buzz(void)
 {
 	int x;
 
