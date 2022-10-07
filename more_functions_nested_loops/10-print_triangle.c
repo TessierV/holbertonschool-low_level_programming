@@ -11,11 +11,11 @@ void print_triangle(int size)
 {
 	int i;
 	int r;
-	
+
 	if (size <= 0)
 	{
 		putchar('\n');
-	}else
+	} else
 	{
 		for (i = 0; i < size; i++)
 		{
