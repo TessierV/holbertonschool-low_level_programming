@@ -11,16 +11,15 @@ void print_triangle(int size)
 {
 	int i;
 	int r;
-
+	
 	if (size <= 0)
 	{
 		putchar('\n');
-	}
-	else
+	}else
 	{
 		for (i = 0; i < size; i++)
 		{
-			for (r = 0; r < (size - i); r++)
+			for (r = 1; r < (size - i); r++)
 			{
 				putchar(32);
 			}
@@ -28,7 +27,7 @@ void print_triangle(int size)
 			{
 				putchar(35);
 			}
-			putchar('\n');
+		putchar('\n');
 		}
 	}
 }
