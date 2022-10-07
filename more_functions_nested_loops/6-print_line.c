@@ -15,5 +15,5 @@ void print_line(int n)
 	{
 		putchar(58);
 	}
-	putchar('/n');
+	putchar('\n');
 }
