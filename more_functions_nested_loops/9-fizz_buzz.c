@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * fizz_buzz - depending of the x 
+ *main - depending of the x
  *
  *Description: the x will print & list depending of %
  *Return: the result
