@@ -5,7 +5,7 @@
  *Description: the x will print & list depending of %
  *Return: the result
  */
-int main(void)
+int fizz_buzz(void)
 {
 	int x;
 
@@ -24,5 +24,4 @@ int main(void)
 			printf("Buzz");
 		}
 	}
-	printf("\n");
 }
