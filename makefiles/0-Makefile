@@ -1,2 +1,2 @@
-school.o : school.c 
-	school.o : $(all)
+school : school.o
+	cc school.o -o school
