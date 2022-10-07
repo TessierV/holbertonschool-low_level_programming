@@ -3,8 +3,6 @@
 #include <stdio.h>
 /**
  *jack_bauer - list hour/min
- *@h: its the name of the variable for hour
- *@m: its the name of the variable for min
  *
  * Return: void
  */
@@ -18,6 +16,7 @@ void jack_bauer(void)
 		{
 			_putchar(h / 10 + '0');
 			_putchar(h % 10 + '0');
+			_putchar(58);
 			_putchar(m / 10 + '0');
 			_putchar(m % 10 + '0');
 			_putchar('\n');
