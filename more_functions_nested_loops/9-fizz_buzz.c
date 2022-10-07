@@ -5,7 +5,7 @@
  *Description: the x will print & list depending of %
  *Return: the result
  */
-int fizz_buzz(void)
+int main(void)
 {
 	int x;
 
