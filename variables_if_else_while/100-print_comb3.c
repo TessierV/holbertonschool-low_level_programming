@@ -18,9 +18,12 @@ int main(void)
 		{
 			putchar(i % 10 + '0');
 			putchar(j % 10 + '0');
+			if (i != 57 && j != 56)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		putchar(',');
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
