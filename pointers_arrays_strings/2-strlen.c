@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strlen - search the size
- * @s : pointer
+ * @s: pointer
  * 
- * Return : return 0
+ * Return: return 0
  */
 int _strlen(char *s)
 {
