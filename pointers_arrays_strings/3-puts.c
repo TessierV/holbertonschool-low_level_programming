@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _puts - return the string
- * @s: pointer
+ * @str: pointer
+ *
  * Return: \n
  */
 void _puts(char *str)
