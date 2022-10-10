@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * swap_int - swapping pointer
- * @n : pointer
+ * @a : pointer
+ * @b : pointer
  */
 void swap_int(int *a, int *b)
 {
