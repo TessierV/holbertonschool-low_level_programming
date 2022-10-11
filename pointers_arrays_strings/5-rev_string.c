@@ -4,28 +4,25 @@
  * @s: pointer
  *
  * Return: \n
- */
+*/
 void rev_string(char *s)
 {
-	int len, c;
-	char *begin, *end, temp;
+	int i, rev;
+	char a, b;
 
-	len = 0;
-	c = 0;
-	begin = s;
-	end = s;
-
-	for (c = 0; c < len - 1; c++)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		end++;
+		i++;
 	}
-	for (c = 0; c < len/2; c++)
+	i = i - 1;
+	rev = i / 2;
+	while (rev >= 0)
 	{
-		temp = *end;
-		*end = *begin;
-		*begin = temp;
-
-		begin++;
-		end--;
-	}
+		a = s[i - rev];
+		b = s[rev];
+		s[rev] = a;
+		s[i - rev] = b;
+		rev--;
+	}	
 }
