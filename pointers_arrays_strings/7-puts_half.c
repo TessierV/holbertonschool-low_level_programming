@@ -18,8 +18,11 @@ void puts_half(char *str)
 	i = (j + 1) / 2;
 	while (i <= j)
 	{ 
-		_putchar(str[i]);
 		i++;
+	}
+	for (; i >= 0; i--)
+	{
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
