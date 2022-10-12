@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * string_toupper - uppercase all letter from a string
- *@str: pointer
+ * _strcat - read
+ *@dest: pointer
+ *@src: pointer
  *
- * Return: \n
+ * Return: dest
 */
 char *_strcat(char *dest, char *src)
 {
