@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * _strcat - read
+ * _strncat - read
  *@dest: pointer
  *@src: pointer
+ *@n: variable
  *
  * Return: dest
 */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
@@ -15,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	while ((dest[i] = src[j]) != '\0')
+	while (j < n && (dest[i] = src[j]) != '\0')
 	{
 		i++;
 		j++;
