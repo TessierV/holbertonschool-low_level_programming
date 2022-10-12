@@ -19,8 +19,8 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 /**/
 /*Project 2 - More pointers, arrays and string*/
-/*char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int n);
+char *_strcat(char *dest, char *src);
+/*char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);*/
