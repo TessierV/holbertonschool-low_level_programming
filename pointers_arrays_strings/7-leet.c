@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - encode 
+ * leet - encode
  * @s: pointer
  *
  * Return: @s
@@ -11,7 +11,7 @@ char *leet(char *s)
 	char *alpha = "aAeEoOtTlL";
 	char *num = "4433007711";
 
-	i = 0; 
+	i = 0;
 	while (s[i] != '\0')
 	{
 		for (j = 0; alpha[j] != '\0' && num[j] != '\0'; j++)
@@ -20,7 +20,7 @@ char *leet(char *s)
 			{
 				s[i] = num[j];
 			}
-		} 
+		}
 		i++;
 	}
 	return (s);
