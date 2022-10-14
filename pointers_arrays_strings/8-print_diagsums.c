@@ -2,14 +2,14 @@
 /**
  * print_diagsums - print recursive way a multi dimensional array
  * @a: array
- * size: array
+ * @size: array
  *
  * Return: print
  */
 void print_diagsums(int *a, int size)
 {
 	int i, front, back;
-	
+
 	front = 0;
 
 	for (i = 0; i < size * size; i = i + (size + 1))
