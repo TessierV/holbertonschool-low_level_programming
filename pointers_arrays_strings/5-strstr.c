@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strstr - scan the 1 first occurence of any character who is part of 2 and
- * return the character from 1.
- * @s: is the one who will be scanned
- * @accept: search between this list of character
+ * _strstr - scan the occurence all character who is part of 2 and
+ * return from 1.
+ * @haystack: is the one who will be scanned
+ * @needle: search the occurance from all character
  *
- * Return: s or null
+ * Return: null
  */
 char *_strstr(char *haystack, char *needle)
 {
