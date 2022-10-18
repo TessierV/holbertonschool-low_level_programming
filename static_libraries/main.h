@@ -1,7 +1,6 @@
-/*This is a static library*/
-#ifndef HEADER_H
-#define HEADER_H
-
+#ifndef MY_HEADER_H
+#define MY_HEADER_H
+#include <stddef.h>
 
 int _putchar(char c);
 int _islower(int c);
