@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * check_recursion - if its a prime
+ * check_recursion - check
  * @i: variable
  * @j: variable
  *
@@ -24,7 +24,7 @@ int check_recursion(int i, int j)
 }
 
 /**
- * _sqrt_ recursion - prime number function
+ * sqrt_recursion - prime recursion function
  *
  * @n: variable
  * Return: the check_prime
