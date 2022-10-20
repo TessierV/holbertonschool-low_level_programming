@@ -24,7 +24,7 @@ int check_recursion(int i, int j)
 }
 
 /**
- * sqrt_recursion - prime recursion function
+ * _sqrt_recursion - prime recursion function
  *
  * @n: variable
  * Return: the check_prime
