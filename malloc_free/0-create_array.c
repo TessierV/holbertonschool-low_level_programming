@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * create_array - create an array
- *@size: size of the array
- *@c: initialise the array
+ * 0-create_array - create an array
+ *
+ * @size: size of the array
+ * @c: initialise the array
  * return: NULL
  */
 
@@ -11,9 +12,10 @@ char *create_array(unsigned int size, char c)
 {
 	char *buffer;
 	unsigned int i;
+	
 	buffer = malloc(size * sizeof(char));
 
-	if (size == 0)
+	if (size == 0 || buffer == NULL)
 	{
 		return (NULL);
 	}
