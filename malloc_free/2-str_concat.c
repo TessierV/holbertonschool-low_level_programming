@@ -15,7 +15,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL && s2 == NULL)
 	{
-		return ("");
+		return (NULL);
 	}
 	if (s1 != NULL && s2 == NULL)
 	{
@@ -52,5 +52,10 @@ char *str_concat(char *s1, char *s2)
 			i++;
 		}
 	}
+	else
+	{
+		return ("");
+	}
 	return (s);
+	free(s);
 }
