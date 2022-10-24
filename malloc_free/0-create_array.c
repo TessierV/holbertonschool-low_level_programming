@@ -5,7 +5,6 @@
  *
  * @size: size of the array
  * @c: initialise the array
- * 
  * Return: NULL or pointer of the array:
  */
 
