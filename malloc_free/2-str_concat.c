@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		len = strlen(s2);
 	}
-	else if (s1 != NULL && s2 != NULL)
+	else
 	{
 		len = strlen(s1);
 		len = len + strlen(s2);
@@ -36,19 +36,21 @@ char *str_concat(char *s1, char *s2)
 		return ("");
 	}
 	i = 0;
-	j = 0;
-	while (s1[j] != '\0')
+	if (s1 != NULL)
 	{
-		s[i] = s1[j];
-		j++;
-		i++;
+		for (j = 0; s1[j]; j++)
+		{
+			s[i] = s1[j];
+			i++;
+		}
 	}
-	k = 0;
-	while (s2[k] != '\0')
+	if (s2 != NULL)
 	{
-		s[i] = s2[k];
-		k++;
-		i++;
+		for (k = 0; s2[k]; k++)
+		{
+			s[i] = s2[k];
+			i++;
+		}
 	}
 	return (s);
 }
