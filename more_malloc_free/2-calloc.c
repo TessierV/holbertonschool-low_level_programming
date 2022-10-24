@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * malloc_checked - allocate memory
- * @b: bytes
+ * _calloc - allocate memory for an array
+ * @nmemb: element in array
+ * @size: bytes
  * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
