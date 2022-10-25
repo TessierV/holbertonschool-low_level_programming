@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main - print the __FILE__
+ * 2-main - main print the _FILE_ 
  * Return: 0
  */
 
