@@ -13,16 +13,6 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 	int i, j, k, len;
 
-
-
-	/*if (s1 == NULL || s2 == NULL)
-	{
-		return (NULL);
-	}*//*
-	if (s1 == NULL && s2 == NULL) 
-	{
-		return (NULL);
-	}*/
 	if (s1 == NULL)
 		{
 			s1 = "";
