@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * str_concat - concat two strings
+ * string_nconcat - concat two strings
  *
  * @s1: string
  * @s2: string 2
+ * @n: variable for the size of s2
  * Return: NULL or return a pointer
  */
 
