@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * str_concat - concat two strings
+ * alloc_grid - grid
  *
- * @s1: string
- * @s2: string 2
+ * @width: width grid
+ * @height: height grid
  * Return: NULL or return a pointer
  */
 
@@ -14,7 +14,7 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	
+
 	grid = malloc(sizeof(int *) * height + 1);
 
 	if (grid == NULL)
@@ -26,6 +26,7 @@ int **alloc_grid(int width, int height)
 	while (i < height)
 	{
 		grid[i] = malloc(sizeof(int) * width + 1);
+		free(grid[i]);
 		if (grid[i] == NULL)
 		{
 			for (i--; i >= 0; i--)
