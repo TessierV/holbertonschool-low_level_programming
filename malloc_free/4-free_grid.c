@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- * free_grid - free grid from previous project
+ * free_grid - fregrid from previous project
  * @grid: pointer
  * @height: height of the grid
  */
