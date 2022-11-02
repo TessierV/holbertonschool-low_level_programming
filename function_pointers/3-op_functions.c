@@ -1,13 +1,5 @@
 #include "3-calc.h"
 /**
- * op_func - Calculation
- * @a: first variable
- * @b: second variable
- *
- * Return: result
- */
-
-/**
  * op_add - addition
  * @a: variable
  * @b: second variable
