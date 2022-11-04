@@ -48,6 +48,7 @@ void print_all(const char * const format, ...)
 {
 	unsigned int i, j;
 	char *comma;
+	va_list arguments;
 	v_types print[] = {
 		{'c', print_char},
 		{'i', print_int},
@@ -55,14 +56,12 @@ void print_all(const char * const format, ...)
 		{'s', print_string}
 	};
 
-	va_list arguments;
-
 	va_start(arguments, format);
 
 	j = 0;
 	comma = "";
 
-	while (format[j] && format)
+	while (format[j] && format != NULL)
 	{
 		i = 0;
 		while (print[i].all)
