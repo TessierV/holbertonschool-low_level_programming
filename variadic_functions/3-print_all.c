@@ -36,9 +36,9 @@ void print_string(va_list arguments)
 {
 	char *args = va_arg(arguments, char*);
 
-	if (args == NULL)
+	if (args == NULL || arguments == NULL)
 	{
-		printf("%p\n", args);
+		printf("%p", args);
 		return;
 	}
 	printf("%s", args);
