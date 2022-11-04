@@ -34,7 +34,9 @@ void print_float(va_list arguments)
 
 void print_string(va_list arguments)
 {
-	!(va_arg(arguments, char*)) ? printf("(nil)") : printf("%s", va_arg(arguments, char*));
+	char *str;
+	str = va_arg(arguments, char*);
+	!str ? printf("(nil)") : printf("%s", str);
 }
 /**
  * print_all - print all arguments
@@ -47,7 +49,7 @@ void print_all(const char * const format, ...)
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
-		{'s', print_string},
+		{'s', print_string},		
 	};
 
 	va_list arguments;
