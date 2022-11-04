@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 	int i, j;
 	j = 0;
 	
-	while (format)
+	while (format[j])
 	{
 		i = 0;
 		while (print[i].all)
@@ -66,9 +66,9 @@ void print_float(va_list arguments)
  * print_string - string
  * @arguments: arguments
  */
-/**
+
 void print_string(va_list arguments)
 {
-	printf("%s", va_args(argumets, char));
+	printf("%s", va_arg(arguments, char*));
 }
-*/
+
