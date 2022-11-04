@@ -34,7 +34,7 @@ void print_float(va_list arguments)
 
 void print_string(va_list arguments)
 {
-	if (!(va_arg(arguments, char*)))
+	if (va_arg(arguments, char*) == NULL)
 	{
 		printf("(nil)");
 	}
@@ -52,7 +52,7 @@ void print_all(const char * const format, ...)
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
-		{'s', print_string},
+		{'s', print_string}
 	};
 
 	va_list arguments;
@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 		i = 0;
 		while (print[i].all)
 		{
-			if (print[i].all == *format)
+			if (print[i].all == format[j])
 			{
 				printf("%s", comma);
 				print[i].func(arguments);
