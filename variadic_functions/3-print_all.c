@@ -36,7 +36,7 @@ void print_string(va_list arguments)
 {
 	if (va_arg(arguments, char*) == NULL)
 	{
-		printf("(nil)");
+		printf("%p", va_arg(arguments, char*));
 	}
 	printf("%p", va_arg(arguments, char*));
 }
