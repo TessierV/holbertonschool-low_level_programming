@@ -34,11 +34,14 @@ void print_float(va_list arguments)
 
 void print_string(va_list arguments)
 {
-	if (va_arg(arguments, char*) == NULL)
+	char *args = va_arg(arguments, char*);
+
+	if (args == NULL)
 	{
-		printf("%p", va_arg(arguments, char*));
+		printf("%p", args);
+		return;
 	}
-	printf("%p", va_arg(arguments, char*));
+	printf("%s", args);
 }
 /**
  * print_all - print all arguments
