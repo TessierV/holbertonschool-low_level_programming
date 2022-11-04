@@ -38,7 +38,7 @@ void print_string(va_list arguments)
 	{
 		printf("(nil)");
 	}
-	printf("%s", va_arg(arguments, char*));
+	printf("%p", va_arg(arguments, char*));
 }
 /**
  * print_all - print all arguments
