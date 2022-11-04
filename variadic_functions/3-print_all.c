@@ -47,6 +47,7 @@ void print_string(va_list arguments)
 void print_all(const char * const format, ...)
 {
 	unsigned int i, j;
+	char *comma;
 	v_types print[] = {
 		{'c', print_char},
 		{'i', print_int},
@@ -59,6 +60,7 @@ void print_all(const char * const format, ...)
 	va_start(arguments, format);
 
 	j = 0;
+	comma = "";
 
 	while (format[j] && format)
 	{
@@ -67,7 +69,9 @@ void print_all(const char * const format, ...)
 		{
 			if (print[i].all == *format)
 			{
+				printf("%s", comma);
 				print[i].func(arguments);
+				comma = ", ";
 			}
 			i++;
 		}
