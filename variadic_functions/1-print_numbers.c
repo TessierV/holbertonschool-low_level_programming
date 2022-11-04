@@ -2,7 +2,7 @@
 /**
  * print_numbers - print all numbers only
  * @n: unsigned arguments
- * Return: 0 or print all numbers
+ * @separator: delimit
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
