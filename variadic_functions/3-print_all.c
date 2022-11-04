@@ -63,7 +63,7 @@ void print_all(const char * const format, ...)
 
 	j = 0;
 
-	while (format[j] && format)
+	while (format && format[j])
 	{
 		i = 0;
 		while (print[i].all)
