@@ -39,7 +39,7 @@ void print_string(va_list arguments)
 	if (args == NULL)
 	{
 		printf("%p", args);
-		printf("\n");
+		return;
 	}
 	printf("%s", args);
 }
@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 	while (format[j] && format != NULL)
 	{
 		i = 0;
-		while (print[i].all != '\0')
+		while (print[i].all)
 		{
 			if (print[i].all == format[j])
 			{
