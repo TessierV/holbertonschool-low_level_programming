@@ -10,21 +10,26 @@ void print_all(const char * const format, ...)
 		{"i", print_int},
 		{"f", print_float},
 		{"s", print_string},
-		{NULL, NULL},
 	};
+
 	va_list arguments;
 	va_start(arguments, format);
 
-	int i;
-	i = 0;
-
-	while (print[i].all)
+	int i, j;
+	j = 0;
+	
+	while (format)
 	{
-		if (print[i].all[0] == *format)
+		i = 0;
+		while (print[i].all)
 		{
-			return (print[i].func(arguments));
+			if (print[i].all == *format)
+			{
+				print[i].func(arguments);
+			}
+			i++;
 		}
-		i++;
+		j++;
 	}
 	printf("\n");
 	va_end(arguments);

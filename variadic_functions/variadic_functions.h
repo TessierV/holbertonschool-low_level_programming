@@ -10,7 +10,7 @@ typedef struct print_all
 {
 	char all;
 	void (*func)(va_list arguments);
-}v_types;
+} v_types;
 
 /*Project - Putchar*/
 int _putchar(char c);
