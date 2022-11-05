@@ -1,15 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
- * free_dog - free the dog
- * @d: pointer
+ * free_dog - frees memory in d
+ * @d: pointer to memory allocated to a dog
  */
-
-void free_dog(struct dog *d)
+void free_dog(dog_t *d)
 {
-	if (d)
-	{
-		free(d->name);
-		free(d->age);
-		free(d->owner);
-	}
+	if (d == NULL)
+		return;
+	free(d->owner);
+	free(d->name);
+	free(d);
 }
