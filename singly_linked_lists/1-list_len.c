@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * list len - print the len of a linked list
+ * list_len - print the len of a linked list
  * @h: pointer of the list
  * Return: i
  */
