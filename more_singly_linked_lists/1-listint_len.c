@@ -1,13 +1,13 @@
 #include "lists.h"
 /**
- * list_len - print the len of a linked list
+ * listint_len - print the len of a linked list
  * @h: pointer of the list
  * Return: i
  */
 
-size_t list_len(const list_t *h)
+size_t listint_len(const listint_t *h)
 {
-	int i;
+	size_t i;
 
 	for (i = 0; h != NULL; i++)
 	{
