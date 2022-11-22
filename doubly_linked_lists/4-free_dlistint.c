@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- *  * free_listint - print the len of a linked list
- *   * @head: pointer of the list
- *    */
+ * free_dlistint - print the len of a linked list
+ * @head: pointer of the list
+ */
 
 void free_dlistint(dlistint_t *head)
 {
