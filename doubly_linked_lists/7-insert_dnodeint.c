@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
- * insert_nodeint_at_index - add new node of somewhere in the index list
- * @head: list
+ * insert_dnodeint_at_index - add new node of somewhere in the index list
+ * @h: list
  * @idx: place in the index
  * @n: int
  * Return:newNode
@@ -31,8 +31,8 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			temp = temp->next;
 		}
 		newNode->next = temp->next;
-		temp->next = newNode;
 		newNode->prev = temp;
+		temp->next = newNode;
 		temp = newNode->next;
 		temp->prev = newNode;
 	}
