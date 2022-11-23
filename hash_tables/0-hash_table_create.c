@@ -29,7 +29,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		{
 			newtable->array[i] = NULL;
 		}
-		return(newtable);
+		return (newtable);
 	}
 	return (NULL);
 }
