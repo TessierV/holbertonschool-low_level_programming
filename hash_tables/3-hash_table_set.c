@@ -20,19 +20,25 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (newNode == NULL)
 		return (0);
-	newNode->key = strdup((char *)key);
-	newNode->value = strdup((char *) value);
+	newNode->key = strdup(key);
+	newNode->value = strdup(value);
 
 	upd = ht->array[kindex];
-	if (upd != NULL)
+	if (upd == NULL)
+	{
+		newNode->next = upd;
+	}
+	while (upd != NULL)
 	{
 		if (strcmp(upd->key, key) == 0)
 		{
+			free(upd->value);
 			upd->value = strdup(value);
 			return (1);
 		}
-		
+		upd = upd->next;
 	}
+	newNode->next = upd;
 	upd = newNode;
 	return (1);
 }
