@@ -16,6 +16,7 @@ void hash_table_print(const hash_table_t *ht)
 	else
 	{
 		index = 0;
+		putchar('{');
 		while (index < ht->size)
 		{
 			node = ht->array[index];
@@ -29,6 +30,7 @@ void hash_table_print(const hash_table_t *ht)
 			}
 			index++;
 		}
+		putchar('}');
 	}
 }
 
