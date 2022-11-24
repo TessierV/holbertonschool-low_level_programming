@@ -13,7 +13,7 @@ void hash_table_print(const hash_table_t *ht)
 
 	if (ht == NULL)
 		return;
-	else
+	else if (ht != NULL)
 	{
 		index = 0;
 		putchar('{');
@@ -23,14 +23,13 @@ void hash_table_print(const hash_table_t *ht)
 			while (node)
 			{
 				printf("%s", comma);
-				printf("'%s': '%s'", node->key,node->value);
+				printf("'%s': '%s'", node->key, node->value);
 				node = node->next;
 				comma = ", ";
-
 			}
 			index++;
 		}
-		putchar('}');
+		printf("}\n");
 	}
 }
 
