@@ -6,13 +6,11 @@
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int index;
-	hash_node_t *node, *rmNode;
+	hash_node_t *node = NULL, *rmNode = NULL;
 
 	if (ht == NULL)
 		return;
 	index = 0;
-	node = NULL;
-	rmNode = NULL;
 	if (ht != NULL)
 	{
 		while (index < ht->size)
