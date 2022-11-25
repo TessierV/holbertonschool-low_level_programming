@@ -10,24 +10,21 @@ void hash_table_delete(hash_table_t *ht)
 
 	if (ht == NULL)
 		return;
-	else if (ht != NULL)
+	index = 0;
+	while (index < ht->size)
 	{
-		index = 0;
-		while (index < ht->size)
+		node = ht->array[index];
+		while (node)
 		{
-			node = ht->array[index];
-			while (node)
-			{
-				rmNode = node->next;
-				free(node->key);
-				free(node->value);
-				free(node);
-				node = rmNode;
-			}
-			index++;
+			rmNode = node->next;
+			free(node->key);
+			free(node->value);
+			free(node);
+			node = rmNode;
 		}
-		free(ht->array);
-		free(ht);
+		index++;
 	}
+	free(ht->array);
+	free(ht);
 }
 
