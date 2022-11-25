@@ -11,9 +11,9 @@ void hash_table_delete(hash_table_t *ht)
 	if (ht == NULL)
 		return;
 	index = 0;
-	*node = NULL;
-	*rmNode = NULL;
-	else if (ht != NULL)
+	node = NULL;
+	rmNode = NULL;
+	if (ht != NULL)
 	{
 		while (index < ht->size)
 		{
