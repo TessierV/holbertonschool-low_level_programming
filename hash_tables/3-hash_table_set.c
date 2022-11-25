@@ -19,8 +19,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	newNode = malloc(sizeof(hash_node_t *));
 	if (newNode == NULL)
 	{
-		free(key);
-		free(value);
+		free(strdup(key));
+		free(strdup(value));
 		return (0);
 	}
 	newNode->key = strdup(key);
