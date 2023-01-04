@@ -2,11 +2,12 @@
         <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=ARGC%20ARGV&fontSize=90&animation=fadeIn&fontAlignY=38&desc=FIRST%20Semester%20|%2019/33%20PROJET%20C#&descAlignY=51&descAlign=62">
 </p>
 
-## Documentation :  
+## DOCUMENTATION :  
 
 https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html  
 http://crasseux.com/books/ctutorial/argc-and-argv.html  
 https://www.youtube.com/watch?v=aP1ijjeZc24  
+<br/>
  
  
 ## PROJECTS FILES & SCRIPT | MANDATORY :
